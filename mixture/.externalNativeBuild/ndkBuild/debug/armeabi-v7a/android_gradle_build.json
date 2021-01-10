@@ -1,0 +1,48 @@
+{
+  "buildFiles": [
+    "D:\\AS\\Android\\Android2\\mixture\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\AS\\android-ndk-r21d\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AS\\Android\\Android2\\mixture\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AS/Android/Android2/mixture/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AS\\Android\\Android2\\mixture\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "jni_mix-debug-armeabi-v7a": {
+      "buildCommand": "D:\\AS\\android-ndk-r21d\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AS\\Android\\Android2\\mixture\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AS/Android/Android2/mixture/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AS\\Android\\Android2\\mixture\\build\\intermediates\\ndkBuild\\debug\\lib D:/AS/Android/Android2/mixture/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libjni_mix.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "jni_mix",
+      "files": [
+        {
+          "src": "D:\\AS\\Android\\Android2\\mixture\\src\\main\\jni\\aes.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/AS/android-ndk-r21d/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AS/android-ndk-r21d/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/AS/Android/Android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -fexceptions -fexceptions"
+        },
+        {
+          "src": "D:\\AS\\Android\\Android2\\mixture\\src\\main\\jni\\find_name.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/AS/android-ndk-r21d/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AS/android-ndk-r21d/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/AS/Android/Android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -fexceptions -fexceptions"
+        },
+        {
+          "src": "D:\\AS\\Android\\Android2\\mixture\\src\\main\\jni\\get_cpu.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/AS/android-ndk-r21d/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AS/android-ndk-r21d/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/AS/Android/Android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -fexceptions -fexceptions"
+        },
+        {
+          "src": "D:\\AS\\Android\\Android2\\mixture\\src\\main\\jni\\get_decrypt.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/AS/android-ndk-r21d/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AS/android-ndk-r21d/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/AS/Android/Android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -fexceptions -fexceptions"
+        },
+        {
+          "src": "D:\\AS\\Android\\Android2\\mixture\\src\\main\\jni\\get_encrypt.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/AS/android-ndk-r21d/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/AS/android-ndk-r21d/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/AS/Android/Android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -fexceptions -fexceptions"
+        }
+      ],
+      "output": "D:\\AS\\Android\\Android2\\mixture\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libjni_mix.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "D:\\AS\\android-ndk-r21d\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
